@@ -1,3 +1,6 @@
+html{
+    font-size: 20px;
+}
 h1{
     font-size: 60px; 
     background-color: #ff6c2c;
@@ -49,4 +52,20 @@ h1{
 }
 #remrel{
     font-size: 1.5rem;
+}
+.hero{
+    margin-top: 20px;
+    background-color: #f1faee;
+    text-align: center;
+    color: #ff6c2c;
+    height: 20vh;
+    width: 50vw;
+}
+.about{
+    margin-top: 20px;
+    background-color: #457b9d;
+    text-align: center;
+    height: 20vh;
+    width: 40vw;
+
 }

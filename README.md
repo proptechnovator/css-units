@@ -24,10 +24,25 @@ The number preceeding the em unit tells the browser how many times greater the f
 ### REM Units
 REM units are also relative but not based on the parent element, but rather the root html element. Default is also 16px.
 <br/>
-<br/>
+To update the root element, we use the html root size by adding that to the stylesheet.<br/>
+example: html { font-size: 25px}
 
 ### Vh an Vw
+The are viewport are relative units of measurements based on the size of the viewport, we can set a percentage of that screen to display the content. <br/>
+Great to use for for banners and responsive design.
+<br/>
+
+### Default Browser Styles
+Open the dev tools to see the browers defaults. They can be found in the elements tab. Then on the right we can see the styles applied to each element that is highlighted or selected. 
+<br/>
+<br/>
+You know we are using the default if it says "user agent stylesheet". When we add custom css, it will show our stylesheet, and below it, it will show what was changed from the default. 
+<br/>
+<br/>
+You can use the Devtools to test changes without actually affecting the CSS file. Just note that once you refresh, it will not save those changes, as they were temporary and only used for testing. 
+<br/>
 
 ### Calc Function
+
 
 ### Min-Height, Max-Height
