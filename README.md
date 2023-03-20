@@ -43,6 +43,18 @@ You can use the Devtools to test changes without actually affecting the CSS file
 <br/>
 
 ### Calc Function
-
+This CSS function allows you to perform calculations when Specifying property values. It can be used with the length, time, percentage, number or interger values.
+<br />
+<br />
+Calc function is best used to make sure to avoid scrolling by setting value that is calculated based on either the viewport height or width.
+<br/>
+example: height: calc(100vh - 140px);
+<br/>
 
 ### Min-Height, Max-Height
+This is used to limit the sizing parameters even if the viewport size changes. This is helpful so that the content viewed is never to large or too small based on the viewport. 
+<br/>
+By default if we do not set height and width, they are set to auto and these values for each element  is are set to "auto". <br/>
+<br/>
+We can also set an overflow property to either hidden or scroll when the context exceeds our height or width set in CSS.
+
