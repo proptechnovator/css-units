@@ -1,0 +1,52 @@
+h1{
+    font-size: 60px; 
+    background-color: #ff6c2c;
+    color: #fff;
+    width: 375px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.outer{
+    background-color: #a8dadc;
+    color:#ff6c2c;
+    width: 375px;
+    padding: 10px;
+    height: 375px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.inner{
+    width: 85%;
+    height: 80%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f1faee ;
+    border-radius: 10px;
+}
+.emunits{
+    margin-top: 25px;
+    background-color: #457b9d;
+    color: #ff6c2c;
+    width: 375px;
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 10px;   
+}
+#emrel,#emabs,#remrel{
+    background-color: #f1faee;
+    padding: 10px;
+    border-radius: 10px;   
+}
+#emabs{
+    font-size: 24px;
+}
+#emrel {
+        font-size: 2em;
+}
+#remrel{
+    font-size: 1.5rem;
+}
